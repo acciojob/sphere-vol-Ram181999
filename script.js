@@ -6,7 +6,7 @@ function volume_sphere(e) {
 
   const radius =radi.value;
 
-  const res =4/3*3.14*radius*radius*radius;
+  const res =(4/3*(Math.PI)*radius*radius*radius).toFixed(4);
 
   cal.value=res;
 	
