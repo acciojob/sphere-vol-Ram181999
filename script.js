@@ -1,5 +1,6 @@
-function volume_sphere() {
+function volume_sphere(e) {
     //Write your code here
+	e.preventDefault();
 	const radi = document.getElementsByTagName("input")[0];
   const cal = document.getElementsByTagName("input")[1];
 
